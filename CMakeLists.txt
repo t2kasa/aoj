@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.10)
+project(aoj)
+
+set(CMAKE_CXX_STANDARD 14)
+
+# dpl
+add_executable(dpl_a_1 dpl/dpl_1_a.cpp)
+add_executable(dpl_1_b dpl/dpl_1_b.cpp)
+add_executable(dpl_1_c dpl/dpl_1_c.cpp)
+
+# alds
+#add_executable(alds stl_intro.cpp alds_1_3_d.cpp)
+add_executable(alds1_3_d alds/alds1_3_d.cpp)
+add_executable(alds1_4_a alds/alds1_4_a)
+add_executable(alds1_4_b alds/alds1_4_b.cpp)
+add_executable(alds1_4_b_s2 alds/alds1_4_b_s2.cpp)
+add_executable(alds1_4_c alds/alds1_4_c.cpp)
+add_executable(alds1_4_d alds/alds1_4_d.cpp)
+add_executable(alds1_5_a alds/alds1_5_a.cpp)
+add_executable(alds1_5_b alds/alds1_5_b.cpp)
+add_executable(alds1_5_c alds/alds1_5_c.cpp)
+
+# sandbox
+#add_executable(example_iterator example_iterator.cpp)
+#add_executable(example_lower_bound example_lower_bound.cpp)
