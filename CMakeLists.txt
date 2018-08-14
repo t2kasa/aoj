@@ -11,6 +11,7 @@ add_executable(dpl_1_c dpl/dpl_1_c.cpp)
 # alds
 #add_executable(alds stl_intro.cpp alds_1_3_d.cpp)
 add_executable(alds1_1_b alds/alds1_1_b.cpp)
+add_executable(alds1_1_c alds/alds1_1_c.cpp)
 add_executable(alds1_3_d alds/alds1_3_d.cpp)
 add_executable(alds1_4_a alds/alds1_4_a)
 add_executable(alds1_4_b alds/alds1_4_b.cpp)
