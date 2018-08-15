@@ -23,7 +23,7 @@ int A[MAX_N + 1];
 int partition(int p, int r) {
     auto x = A[r];
     auto i = p - 1;
-    for (int j = 0; j < r; ++j) {
+    for (int j = p; j < r; ++j) {
         if (A[j] <= x) {
             i++;
             swap(A[i], A[j]);
