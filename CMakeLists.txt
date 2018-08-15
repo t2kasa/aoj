@@ -33,6 +33,7 @@ add_executable(alds1_4_d alds/alds1_4_d.cpp)
 add_executable(alds1_5_a alds/alds1_5_a.cpp)
 add_executable(alds1_5_b alds/alds1_5_b.cpp)
 add_executable(alds1_5_c alds/alds1_5_c.cpp)
+add_executable(alds1_5_d alds/alds1_5_d.cpp)
 
 add_executable(alds1_6_a alds/alds1_6_a.cpp)
 add_executable(alds1_6_b alds/alds1_6_b.cpp)
