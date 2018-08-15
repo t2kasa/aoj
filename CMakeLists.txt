@@ -9,18 +9,31 @@ add_executable(dpl_1_b dpl/dpl_1_b.cpp)
 add_executable(dpl_1_c dpl/dpl_1_c.cpp)
 
 # alds
-#add_executable(alds stl_intro.cpp alds_1_3_d.cpp)
+add_executable(alds1_1_a alds/alds1_1_a.cpp)
 add_executable(alds1_1_b alds/alds1_1_b.cpp)
 add_executable(alds1_1_c alds/alds1_1_c.cpp)
+add_executable(alds1_1_d alds/alds1_1_d.cpp)
+
+add_executable(alds1_2_a alds/alds1_2_a.cpp)
+add_executable(alds1_2_b alds/alds1_2_b.cpp)
+add_executable(alds1_2_c alds/alds1_2_c.cpp)
+add_executable(alds1_2_d alds/alds1_2_d.cpp)
+
+add_executable(alds1_3_a alds/alds1_3_a.cpp)
+add_executable(alds1_3_b alds/alds1_3_b.cpp)
+add_executable(alds1_3_c alds/alds1_3_c.cpp)
 add_executable(alds1_3_d alds/alds1_3_d.cpp)
+
 add_executable(alds1_4_a alds/alds1_4_a)
 add_executable(alds1_4_b alds/alds1_4_b.cpp)
 add_executable(alds1_4_b_s2 alds/alds1_4_b_s2.cpp)
 add_executable(alds1_4_c alds/alds1_4_c.cpp)
 add_executable(alds1_4_d alds/alds1_4_d.cpp)
+
 add_executable(alds1_5_a alds/alds1_5_a.cpp)
 add_executable(alds1_5_b alds/alds1_5_b.cpp)
 add_executable(alds1_5_c alds/alds1_5_c.cpp)
+
 add_executable(alds1_6_b alds/alds1_6_b.cpp)
 
 # sandbox
