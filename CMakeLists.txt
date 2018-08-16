@@ -54,7 +54,7 @@ add_executable(alds1_9_b alds/alds1_9_b.cpp)
 add_executable(alds1_9_c alds/alds1_9_c.cpp)
 
 add_executable(alds1_10_a alds/alds1_10_a.cpp)
-#add_executable(alds1_10_b alds/alds1_10_b.cpp)
+add_executable(alds1_10_b alds/alds1_10_b.cpp)
 add_executable(alds1_10_c alds/alds1_10_c.cpp)
 
 # examples
