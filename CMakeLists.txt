@@ -45,6 +45,8 @@ add_executable(alds1_7_b alds/alds1_7_b.cpp)
 add_executable(alds1_7_c alds/alds1_7_c.cpp)
 add_executable(alds1_7_d alds/alds1_7_d.cpp)
 
+add_executable(alds1_8_a alds/alds1_8_a.cpp)
+
 # sandbox
 #add_executable(example_iterator example_iterator.cpp)
 #add_executable(example_lower_bound example_lower_bound.cpp)
