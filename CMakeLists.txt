@@ -50,6 +50,7 @@ add_executable(alds1_8_b alds/alds1_8_b.cpp)
 add_executable(alds1_8_c alds/alds1_8_c.cpp)
 
 add_executable(alds1_9_a alds/alds1_9_a.cpp)
+add_executable(alds1_9_b alds/alds1_9_b.cpp)
 
 
 # sandbox
