@@ -54,6 +54,7 @@ add_executable(alds1_9_b alds/alds1_9_b.cpp)
 add_executable(alds1_9_c alds/alds1_9_c.cpp)
 
 
-# sandbox
+# examples
 #add_executable(example_iterator example_iterator.cpp)
 #add_executable(example_lower_bound example_lower_bound.cpp)
+add_executable(example_priority_queue alds/example_priority_queue.cpp)
