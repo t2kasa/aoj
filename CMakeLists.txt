@@ -61,6 +61,7 @@ add_executable(alds1_11_a alds/alds1_11_a.cpp)
 add_executable(alds1_11_b alds/alds1_11_b.cpp)
 add_executable(alds1_11_b_use_stack alds/alds1_11_b_use_stack.cpp)
 add_executable(alds1_11_c alds/alds1_11_c.cpp)
+add_executable(alds1_11_d alds/alds1_11_d.cpp)
 
 # examples
 #add_executable(example_iterator example_iterator.cpp)
