@@ -8,6 +8,7 @@
 #include <iostream>
 #include <iomanip>
 #include <vector>
+#include <stack>
 #include <limits>
 #include <numeric>
 #include <functional>
@@ -35,19 +36,39 @@ int find_time[MAX_N];
 int complete_time[MAX_N];
 int n;
 int curr_time;
+stack<int> s;
+
+const int NIL = -1;
+
+int next_node(int u) {
+    for (int v = 0; v < n; ++v) {
+        if (adj[u][v] != 0 && color[v] == color_type::white) return v;
+    }
+
+    return NIL;
+}
 
 void dfs(int u) {
-    curr_time++;
+    s.push(u);
     color[u] = color_type::gray;
+    curr_time++;
     find_time[u] = curr_time;
 
-    // search adj nodes
-    for (int v = 0; v < n; ++v) {
-        if (adj[u][v] != 0 && color[v] == color_type::white) dfs(v);
+    while (!s.empty()) {
+        u = s.top();
+        auto v = next_node(u);
+        if (v != NIL) {
+            color[v] = color_type::gray;
+            curr_time++;
+            find_time[v] = curr_time;
+            s.push(v);
+        } else {
+            s.pop();
+            color[u] = color_type::black;
+            curr_time++;
+            complete_time[u] = curr_time;
+        }
     }
-    curr_time++;
-    color[u] = color_type::black;
-    complete_time[u] = curr_time;
 }
 
 void start_dfs() {
@@ -57,7 +78,9 @@ void start_dfs() {
         complete_time[v] = 0;
     }
 
+    while (!s.empty()) s.pop();
     curr_time = 0;
+
     for (int v = 0; v < n; ++v) {
         if (color[v] == color_type::white) dfs(v);
     }
