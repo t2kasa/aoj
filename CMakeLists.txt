@@ -67,6 +67,10 @@ add_executable(alds1_12_a alds/alds1_12_a.cpp)
 add_executable(alds1_12_b alds/alds1_12_b.cpp)
 add_executable(alds1_12_c alds/alds1_12_c.cpp)
 
+# dsl
+add_executable(dsl_1_a dsl/dsl_1_a.cpp)
+
+
 # examples
 #add_executable(example_iterator example_iterator.cpp)
 #add_executable(example_lower_bound example_lower_bound.cpp)
