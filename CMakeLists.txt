@@ -70,6 +70,9 @@ add_executable(alds1_12_c alds/alds1_12_c.cpp)
 # dsl
 add_executable(dsl_1_a dsl/dsl_1_a.cpp)
 
+# cgl
+add_executable(cgl_2_a cgl/cgl_2_a.cpp)
+
 
 # examples
 #add_executable(example_iterator example_iterator.cpp)
