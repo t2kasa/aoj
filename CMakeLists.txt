@@ -72,6 +72,7 @@ add_executable(dsl_1_a dsl/dsl_1_a.cpp)
 
 # cgl
 add_executable(cgl_1_a cgl/cgl_1_a.cpp)
+add_executable(cgl_1_b cgl/cgl_1_b.cpp)
 add_executable(cgl_2_a cgl/cgl_2_a.cpp)
 
 
