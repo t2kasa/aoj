@@ -78,6 +78,9 @@ add_executable(cgl_2_a cgl/cgl_2_a.cpp)
 add_executable(cgl_2_b cgl/cgl_2_b.cpp)
 add_executable(cgl_2_d cgl/cgl_2_d.cpp)
 
+# volume11
+add_executable(1160 volume11/1160.cpp)
+
 
 # examples
 #add_executable(example_iterator example_iterator.cpp)
