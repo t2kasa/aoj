@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(dpl_a_1 dpl/dpl_1_a.cpp)
 add_executable(dpl_1_a_2nd dpl/dpl_1_a_2nd.cpp)
 add_executable(dpl_1_b dpl/dpl_1_b.cpp)
+add_executable(dpl_1_b_2nd dpl/dpl_1_b_2nd.cpp)
 add_executable(dpl_1_c dpl/dpl_1_c.cpp)
 
 # alds
