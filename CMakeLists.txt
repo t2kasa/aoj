@@ -82,6 +82,10 @@ add_executable(cgl_2_a cgl/cgl_2_a.cpp)
 add_executable(cgl_2_b cgl/cgl_2_b.cpp)
 add_executable(cgl_2_d cgl/cgl_2_d.cpp)
 
+# ntl
+add_executable(ntl_1_b ntl/ntl_1_b.cpp)
+
+
 # volume11
 add_executable(1160 volume11/1160.cpp)
 
