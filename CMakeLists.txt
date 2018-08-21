@@ -9,6 +9,8 @@ add_executable(dpl_1_a_2nd dpl/dpl_1_a_2nd.cpp)
 add_executable(dpl_1_b dpl/dpl_1_b.cpp)
 add_executable(dpl_1_b_2nd dpl/dpl_1_b_2nd.cpp)
 add_executable(dpl_1_c dpl/dpl_1_c.cpp)
+add_executable(dpl_1_d dpl/dpl_1_d.cpp)
+add_executable(dpl_3_a dpl/dpl_3_a.cpp)
 
 # alds
 add_executable(alds1_1_a alds/alds1_1_a.cpp)
