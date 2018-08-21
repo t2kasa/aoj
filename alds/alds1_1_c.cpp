@@ -16,6 +16,26 @@
 using namespace std;
 using i64 = long long;
 
+const int MAX_N = 20;
+bool is_prime_number[MAX_N + 1];
+bool checked[MAX_N + 1];
+
+// this problem constraint shows the judged value x is 2 <= x <= 10^8.
+// so eratos is not worked.
+void eratos() {
+    is_prime_number[0] = false, checked[0] = true;
+    is_prime_number[1] = false, checked[1] = true;
+    for (int i = 2; i <= MAX_N; ++i) {
+        if (!checked[i]) {
+            is_prime_number[i] = true;
+            for (int k = 2 * i; k <= MAX_N; k += i) {
+                is_prime_number[k] = false;
+                checked[k] = true;
+            }
+        }
+    }
+}
+
 bool is_prime(int x) {
     if (x <= 1) return false;
     if (x <= 3) return true;
@@ -28,12 +48,13 @@ bool is_prime(int x) {
     return true;
 }
 
+int n;
+
 int main() {
-    int n;
     cin >> n;
-    int x;
     int ans = 0;
     for (int i = 0; i < n; ++i) {
+        int x;
         cin >> x;
         if (is_prime(x)) ans++;
     }
