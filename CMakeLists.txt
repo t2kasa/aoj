@@ -73,6 +73,7 @@ add_executable(alds1_12_c alds/alds1_12_c.cpp)
 
 add_executable(alds1_13_a alds/alds1_13_a.cpp)
 add_executable(alds1_13_b alds/alds1_13_b.cpp)
+add_executable(alds1_13_c alds/alds1_13_c.cpp)
 
 # dsl
 add_executable(dsl_1_a dsl/dsl_1_a.cpp)
