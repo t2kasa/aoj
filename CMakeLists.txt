@@ -73,7 +73,8 @@ add_executable(alds1_12_c alds/alds1_12_c.cpp)
 
 add_executable(alds1_13_a alds/alds1_13_a.cpp)
 add_executable(alds1_13_b alds/alds1_13_b.cpp)
-add_executable(alds1_13_c alds/alds1_13_c.cpp)
+#add_executable(alds1_13_c alds/alds1_13_c.cpp)
+#add_executable(alds1_13_c_2 alds/alds1_13_c_2.cpp)
 
 # dsl
 add_executable(dsl_1_a dsl/dsl_1_a.cpp)
@@ -89,6 +90,8 @@ add_executable(cgl_2_d cgl/cgl_2_d.cpp)
 # ntl
 add_executable(ntl_1_b ntl/ntl_1_b.cpp)
 
+# volume11
+add_executable(0539 volume5/0539.cpp)
 
 # volume11
 add_executable(1160 volume11/1160.cpp)
